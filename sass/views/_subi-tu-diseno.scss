@@ -1,0 +1,24 @@
+.subi__tu__diseno__contenedor{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    display: grid;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    transform: translateY(350px);
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    font-size: 2rem;
+}
+
+.subi__tu__diseno__imagen{
+    display: grid;
+    max-width: 30px;
+    margin: auto;
+    padding: auto;
+    transform: translateY(310px);
+    justify-content: center;
+    align-items: center;
+}

@@ -145,6 +145,49 @@ footer {
   font-size: 24px;
   align-items: center; }
 
+.about__us__titulo {
+  font-size: 5rem;
+  color: black;
+  text-align: center;
+  font-family: "Inter", sans-serif; }
+
+.about__us__subtitulo {
+  font-size: 3rem;
+  color: #E32727;
+  text-align: center;
+  padding-top: 2rem;
+  font-family: "Inter", sans-serif; }
+
+.about__us__texto {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  padding-top: 10rem;
+  font-family: "Inter", sans-serif; }
+
+.subi__tu__diseno__contenedor {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  display: grid;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  transform: translateY(350px);
+  justify-content: center;
+  align-items: center;
+  border-radius: 25%;
+  font-size: 2rem; }
+
+.subi__tu__diseno__imagen {
+  display: grid;
+  max-width: 30px;
+  margin: auto;
+  padding: auto;
+  transform: translateY(310px);
+  justify-content: center;
+  align-items: center; }
+
 @media screen and (max-width: 1450px) {
   .menu {
     flex-direction: row;
