@@ -11,7 +11,7 @@
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 1rem;
-
+}
     .cards{
         display: grid;
         grid-template-columns: repeat(12, 1fr);
@@ -69,4 +69,3 @@
     .container{
         font-size: 3rem;
     }
-}
