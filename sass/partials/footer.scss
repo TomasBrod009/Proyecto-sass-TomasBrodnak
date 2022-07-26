@@ -1,0 +1,29 @@
+footer{
+    color: black;
+    text-align: center;
+    padding-top: 450px;
+    font-family: $font-principal;
+    .posicion--logos{
+        display: flex;
+        justify-content: center;
+        flex: 1 1 50%;
+        flex-direction:row;
+        gap: 1rem;
+        }
+        .logoig{
+            height: 50px;
+            width: 50px;
+            margin-bottom: 10px;
+        }
+        .logo--facebook{
+            height: 40px;
+            width: 40px;
+            margin-bottom: 15px;
+        }
+            @media screen and (max-width:600px){
+            .menu{
+                flex-direction: column;
+                gap: 3rem;
+                transform: translateY(-35px);
+            } 
+} }

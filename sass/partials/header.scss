@@ -1,0 +1,20 @@
+header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: $spacing-small;
+border-bottom: 10px solid $primary;
+}
+.menu{
+    display: flex;
+    gap: $spacing-large;
+    .submenu__item{
+        font-size: 16px;
+        padding: 0.5rem;
+        border: 2px solid #fff;
+    }
+    .submenu__item:hover{
+        border-color: black;
+        border-style: groove;
+    }
+}
