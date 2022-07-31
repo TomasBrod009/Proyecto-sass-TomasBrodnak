@@ -10,8 +10,9 @@ border-bottom: 2px solid white;
     gap: $spacing-large;
     .submenu__item{
         font-size: 16px;
+        font-family: $font-principal;
         padding: 0.5rem;
-        border: 2px solid #fff;
+        border: 5px solid #fff;
     }
     .submenu__item:hover{
         border-color: black;
