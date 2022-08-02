@@ -1,5 +1,6 @@
 @import './misc/variables.scss';
 @import './misc/normalize.scss';
+@import './misc/mixin';
 
 @import './partials/header.scss';
 @import './views/home.scss';
@@ -7,4 +8,5 @@
 @import './views/ofertas.scss';
 @import './views/about-us';
 @import './views/subi-tu-diseno';
+@import './views/remera1';
 @import './medias-queries.scss';

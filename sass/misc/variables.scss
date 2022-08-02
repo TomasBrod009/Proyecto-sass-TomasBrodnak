@@ -2,6 +2,7 @@
     $primary: #ACA0CD;
     $secondary: #E32727;
     $title-color: #FFFDD0;
+    $header-footer: rgba(255, 255, 255, 0.411);
 
     /* Fonts */
     $font-title: 'Montserrat', sans-serif;
@@ -14,10 +15,11 @@
     $spacing-small: 2rem;
     $spacing-xsmall: 1rem;
 
-    /* Font sizes */
-    $large: 5.5em;
-    $medium: 2.4em;
-    $base: 1.5em;
-    $small: 1.3em;
-
+/* Font sizes */
+    $fuentes:(
+        large: 5.5em,
+        medium: 1.8em,
+        base: 1.5em,
+        small: 1.3em,
+    )
     
