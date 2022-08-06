@@ -167,28 +167,31 @@ footer {
   padding-top: 10rem;
   font-family: "Inter", sans-serif; }
 
-.subi__tu__diseno__contenedor {
-  width: 150px;
-  height: 150px;
-  background-color: gray;
-  display: grid;
-  margin: auto;
-  padding: auto;
-  text-align: center;
-  transform: translateY(350px);
-  justify-content: center;
-  align-items: center;
-  border-radius: 25%;
-  font-size: 2rem; }
+.desing-main {
+  width: 100%;
+  height: 100%; }
 
-.subi__tu__diseno__imagen {
+.subi__tu__diseno__contenedor {
   display: grid;
-  max-width: 30px;
-  margin: auto;
-  padding: auto;
-  transform: translateY(310px);
-  justify-content: center;
-  align-items: center; }
+  margin: 200px 0 200px 20%;
+  width: 1200px;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.568);
+  text-align: center;
+  align-items: center;
+  outline: dotted #97ebf7 5px;
+  border-radius: 5%; }
+
+.desing-btn {
+  justify-self: center;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 32px;
+  background-color: rgba(149, 181, 223, 0.986);
+  color: white;
+  font-size: 1.3em;
+  display: flex;
+  border: 2px solid white; }
 
 .container-1 {
   max-width: 1200px;
