@@ -9,10 +9,10 @@ background-color: $header-footer;
     gap: $spacing-xlarge;
     .submenu__item{
         font-size: map-get($fuentes, small );
-        font-family: $font-principal;
+        font-family: $font-title;
         text-decoration: none;
-        font-weight: 800;
-        color: rgb(255, 255, 255);
+        font-weight: 100;
+        color: #212529;
         padding: 0.5rem;
     }
     .submenu__item--active{

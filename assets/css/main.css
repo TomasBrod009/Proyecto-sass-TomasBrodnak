@@ -38,10 +38,10 @@ header {
   gap: 10rem; }
   .menu .submenu__item, .menu .submenu__item--active {
     font-size: 1.3em;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-decoration: none;
-    font-weight: 800;
-    color: white;
+    font-weight: 100;
+    color: #212529;
     padding: 0.5rem; }
   .menu .submenu__item--active {
     border: 0;
