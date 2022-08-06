@@ -12,6 +12,8 @@
     align-items: center;
     outline:dotted rgb(151, 235, 247) 5px;
     border-radius: 5%;
+    font-family: $font-Uchen;
+    font-weight: 400;
 }
 .desing-btn{
     justify-self: center;
@@ -21,6 +23,7 @@
     background-color: rgba(149, 181, 223, 0.986);
     color: white;
     font-size: map-get($fuentes , small );
+    font-family: $font-principal;
     display: flex;
     border: 2px solid white;
 }

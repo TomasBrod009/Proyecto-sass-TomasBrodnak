@@ -8,10 +8,12 @@ background-color: $header-footer;
     display: flex;
     gap: $spacing-xlarge;
     .submenu__item{
-        font-size: 16px;
+        font-size: map-get($fuentes, small );
         font-family: $font-principal;
+        text-decoration: none;
+        font-weight: 800;
+        color: rgb(255, 255, 255);
         padding: 0.5rem;
-        border: 5px solid #fff;
     }
     .submenu__item--active{
         @extend.submenu__item;

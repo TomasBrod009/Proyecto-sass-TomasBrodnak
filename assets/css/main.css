@@ -4,6 +4,8 @@
 /* Font sizes */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -35,10 +37,12 @@ header {
   display: flex;
   gap: 10rem; }
   .menu .submenu__item, .menu .submenu__item--active {
-    font-size: 16px;
+    font-size: 1.3em;
     font-family: "Inter", sans-serif;
-    padding: 0.5rem;
-    border: 5px solid #fff; }
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+    padding: 0.5rem; }
   .menu .submenu__item--active {
     border: 0;
     color: red;
@@ -50,8 +54,9 @@ header {
 
 .titulo__tienda {
   display: flex;
-  font-size: 56px;
-  font-family: "Inter", sans-serif;
+  font-size: 5em;
+  font-family: "Uchen", serif;
+  font-weight: 400;
   justify-content: center;
   color: #FFFDD0;
   padding-bottom: 3rem; }
@@ -180,7 +185,9 @@ footer {
   text-align: center;
   align-items: center;
   outline: dotted #97ebf7 5px;
-  border-radius: 5%; }
+  border-radius: 5%;
+  font-family: "Uchen", serif;
+  font-weight: 400; }
 
 .desing-btn {
   justify-self: center;
@@ -190,6 +197,7 @@ footer {
   background-color: rgba(149, 181, 223, 0.986);
   color: white;
   font-size: 1.3em;
+  font-family: "Inter", sans-serif;
   display: flex;
   border: 2px solid white; }
 
